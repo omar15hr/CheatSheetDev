@@ -2,9 +2,6 @@ body {
   background-color: #1d3557;
   font-family: 'Courier New', Courier, monospace;
 }
-.container {
-  padding: 30px;
-}
 .header-container {
   display: flex;
   flex-direction: column;
@@ -18,8 +15,16 @@ body {
 .header-title-2 {
   color: #adc178;
 }
+.content-container {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
 .card-list-title {
   color: #adc178;
+  padding-left: 20px;
 }
 .cards-container {
   display: flex;
@@ -29,13 +34,14 @@ body {
 .card {
   display: flex;
   flex-direction: column;
+  align-items: center;
   gap: 10px;
-  width: 400px;
-  height: 200px;
+  width: 450px;
+  height: 300px;
   border: none;
   border-radius: 10px;
-  background-color: #415a77;
-  box-shadow: 1px 1px 10px #5a5959;
+  background-color: #32455c;
+  box-shadow: 1px 1px 10px #747272;
 }
 .card-title {
   text-align: center;
@@ -49,11 +55,30 @@ body {
 .card-content {
   display: flex;
   flex-direction: column;
-  padding: 15px;
-  width: 300px;
+  margin-top: 10px;
+  width: 400px;
+  gap: 25px;
+  font-size: 15px;
+  color: white;
 }
 .card-content-code {
   display: flex;
   flex-direction: column;
   gap: 5px;
+}
+/* COLORES DEL CODIGO  */
+.green-code {
+  color: #d9ed92;
+}
+.orange-code {
+  color: #fb8b24;
+}
+.grey-light-code {
+  color: #8d99ae;
+}
+.blue-code {
+  color: #168aad;
+}
+.white-code {
+  color: white;
 }
