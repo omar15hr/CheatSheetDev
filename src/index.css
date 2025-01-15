@@ -52,6 +52,15 @@ body {
   border-radius: 5px;
   padding: 5px;
 }
+.card-title-aritmethics {
+  text-align: center;
+  width: 200px;
+  background-color: #52796f;
+  color: #f2e9e4;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+}
 .card-content {
   display: flex;
   flex-direction: column;
