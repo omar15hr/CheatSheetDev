@@ -1,6 +1,7 @@
-import { ConsoleCard } from "./cards/ConsoleCard";
-import { NumbersCard } from "./cards/NumbersCard";
-import { VariablesCard } from "./cards/VariablesCard";
+import { ConsoleCard } from "./js/cards/ConsoleCard";
+import { NumbersCard } from "./js/cards/NumbersCard";
+import { StringsCard } from "./js/cards/StringsCard";
+import { VariablesCard } from "./js/cards/VariablesCard";
 
 export function CardList() {
   return (
@@ -10,6 +11,7 @@ export function CardList() {
         <ConsoleCard />
         <NumbersCard />
         <VariablesCard />
+        <StringsCard />
       </div>
     </>
   );
