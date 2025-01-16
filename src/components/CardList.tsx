@@ -1,10 +1,11 @@
-import { ArithmeticCard } from "./js/cards/ArithmeticCard";
-import { AssignmentCard } from "./js/cards/AssignmentCard";
-import { CommentsCard } from "./js/cards/CommetsCard";
-import { ConsoleCard } from "./js/cards/ConsoleCard";
-import { NumbersCard } from "./js/cards/NumbersCard";
-import { StringsCard } from "./js/cards/StringsCard";
-import { VariablesCard } from "./js/cards/VariablesCard";
+import { ArithmeticCard } from "./js/cards/data/ArithmeticCard";
+import { AssignmentCard } from "./js/cards/data/AssignmentCard";
+import { CommentsCard } from "./js/cards/data/CommetsCard";
+import { ConsoleCard } from "./js/cards/data/ConsoleCard";
+import { NumbersCard } from "./js/cards/data/NumbersCard";
+import { StringInterpolationCard } from "./js/cards/data/StringInterpolationCard";
+import { StringsCard } from "./js/cards/data/StringsCard";
+import { VariablesCard } from "./js/cards/data/VariablesCard";
 
 export function CardList() {
   return (
@@ -18,6 +19,7 @@ export function CardList() {
         <ArithmeticCard />
         <CommentsCard />
         <AssignmentCard />
+        <StringInterpolationCard />
       </div>
     </>
   );
