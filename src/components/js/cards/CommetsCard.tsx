@@ -1,7 +1,7 @@
 export function CommentsCard() {
   return (
     <div className="card">
-      <div className="card-title-aritmethics">Comments</div>
+      <div className="card-title">Comments</div>
       <div className="card-content">
         <div className="card-content-code">
           <span>

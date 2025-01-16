@@ -1,4 +1,5 @@
 import { ArithmeticCard } from "./js/cards/ArithmeticCard";
+import { AssignmentCard } from "./js/cards/AssignmentCard";
 import { CommentsCard } from "./js/cards/CommetsCard";
 import { ConsoleCard } from "./js/cards/ConsoleCard";
 import { NumbersCard } from "./js/cards/NumbersCard";
@@ -16,6 +17,7 @@ export function CardList() {
         <StringsCard />
         <ArithmeticCard />
         <CommentsCard />
+        <AssignmentCard />
       </div>
     </>
   );
