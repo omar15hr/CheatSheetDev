@@ -2,6 +2,7 @@ import { ArithmeticCard } from "./js/cards/data/ArithmeticCard";
 import { AssignmentCard } from "./js/cards/data/AssignmentCard";
 import { CommentsCard } from "./js/cards/data/CommetsCard";
 import { ConsoleCard } from "./js/cards/data/ConsoleCard";
+import { ConstKeywordCard } from "./js/cards/data/ConstKeywordCard";
 import { LetKeywordCard } from "./js/cards/data/LetKeywordCard";
 import { NumbersCard } from "./js/cards/data/NumbersCard";
 import { StringInterpolationCard } from "./js/cards/data/StringInterpolationCard";
@@ -22,6 +23,7 @@ export function CardList() {
         <AssignmentCard />
         <StringInterpolationCard />
         <LetKeywordCard />
+        <ConstKeywordCard />
       </div>
     </>
   );
