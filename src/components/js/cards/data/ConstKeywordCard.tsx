@@ -1,6 +1,6 @@
 export function ConstKeywordCard() {
   return (
-    <div className="card">
+    <div className="card-const-keyword">
       <div className="card-title-keyword">const Keyword</div>
       <div className="card-content">
         <div className="card-content-code">
