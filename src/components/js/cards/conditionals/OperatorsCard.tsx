@@ -88,9 +88,51 @@ export function OperatorsCard() {
             <span className="grey-light-code"> // true</span>
           </span>
 
+          <div className="divider-card">Comparison Operators</div>
+
+          <span>
+            <span className="orange-code">1 </span>
+            <span>{'>'}</span>
+            <span className="orange-code"> 3</span>
+            <span className="grey-light-code"> // false</span>
+          </span>
+
+          <span>
+            <span className="orange-code">3 </span>
+            <span>{'>'}</span>
+            <span className="orange-code"> 1</span>
+            <span className="grey-light-code"> // true</span>
+          </span>
+
+          <span>
+            <span className="orange-code">250 </span>
+            <span>{'>='}</span>
+            <span className="orange-code"> 250</span>
+            <span className="grey-light-code"> // true</span>
+          </span>
+
+          <span>
+            <span className="orange-code">1 </span>
+            <span>{'==='}</span>
+            <span className="orange-code"> 1</span>
+            <span className="grey-light-code"> // true</span>
+          </span>
+
+          <span>
+            <span className="orange-code">1 </span>
+            <span>{'==='}</span>
+            <span className="orange-code"> 2</span>
+            <span className="grey-light-code"> // false</span>
+          </span>
+
+          <span>
+            <span className="orange-code">1 </span>
+            <span>{'==='}</span>
+            <span className="green-code"> '1'</span>
+            <span className="grey-light-code"> // false</span>
+          </span>
+
         </div>
-
-
       </div>
     </div>
   );
