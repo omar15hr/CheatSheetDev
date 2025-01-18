@@ -125,6 +125,7 @@ body {
   flex-flow: row wrap;
   justify-content: center;
   padding: 20px;
+  gap: 20px;
 }
 .card-operators {
   display: flex;
@@ -141,13 +142,29 @@ body {
 .left-column {
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-wrap: wrap;
   gap: 20px;
   flex: 2;
 }
-
 .right-column {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: center;
   flex: 1;
+}
+.divider-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+  text-align: center;
+  background-color: #3f5774;
+  color: #f2e9e4;
+  border: none;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+  padding: 5px;
 }
