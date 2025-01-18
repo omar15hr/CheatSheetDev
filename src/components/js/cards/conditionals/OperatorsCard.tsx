@@ -132,6 +132,45 @@ export function OperatorsCard() {
             <span className="grey-light-code"> // false</span>
           </span>
 
+          <div className="divider-card">Nullish coalescing operator ??</div>
+
+          <span>
+            <span className="orange-code">null </span>
+            <span>{'??'}</span>
+            <span className="green-code"> 'I win'</span>
+            <span>;</span>
+            <span className="grey-light-code"> // 'I win'</span>
+          </span>
+
+          <span>
+            <span className="orange-code">undefined </span>
+            <span>{'??'}</span>
+            <span className="green-code"> 'Me too'</span>
+            <span>;</span>
+            <span className="grey-light-code"> // 'Me too'</span>
+          </span>
+
+          <span className="space-container-card">
+            <span className="orange-code">false </span>
+            <span>{'??'}</span>
+            <span className="green-code"> 'I lose'</span>
+            <span className="grey-light-code"> // 'false'</span>
+          </span>
+
+          <span>
+            <span className="orange-code">0 </span>
+            <span>{'??'}</span>
+            <span className="green-code"> 'I lose again'</span>
+            <span className="grey-light-code"> // 0</span>
+          </span>
+
+          <span>
+            <span className="green-code">'' </span>
+            <span>{'??'}</span>
+            <span className="green-code"> 'Oh man!'</span>
+            <span className="grey-light-code"> // ''</span>
+          </span>
+
         </div>
       </div>
     </div>
