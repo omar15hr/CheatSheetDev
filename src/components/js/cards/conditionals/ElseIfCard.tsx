@@ -1,7 +1,7 @@
 export function ElseIfCard() {
   return (
     <div className="card">
-      <div className="card-title-keyword">If Statement</div>
+      <div className="card-title-keyword">Else if</div>
       <div className="card-content">
         <div className="card-content-code">
 

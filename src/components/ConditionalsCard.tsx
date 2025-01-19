@@ -1,6 +1,7 @@
 import { ElseIfCard } from "./js/cards/conditionals/ElseIfCard";
 import { IfStatementCard } from "./js/cards/conditionals/IfStatementCard";
 import { OperatorsCard } from "./js/cards/conditionals/OperatorsCard";
+import { SwitchStatementCard } from "./js/cards/conditionals/SwitchStatementCard";
 import { TernaryOperatorCard } from "./js/cards/conditionals/TernaryOperatorCard";
 
 export function ConditionalsCard() {
@@ -12,6 +13,7 @@ export function ConditionalsCard() {
           <IfStatementCard />
           <TernaryOperatorCard />
           <ElseIfCard />
+          <SwitchStatementCard />
         </div>
         <div className="right-column">
           <OperatorsCard />
